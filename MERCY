@@ -1,0 +1,14 @@
+//MERCY
+import java.util.*;
+public class HELLOWORLD {
+	private static Scanner sc;
+	public static void main(String args[])
+	{
+		sc = new Scanner(System.in);
+		int cases = sc.nextInt();
+		while(cases --> 0){
+			String name= sc.next();
+			System.out.println("Hello, " + name + "!");
+		}
+	}
+}
